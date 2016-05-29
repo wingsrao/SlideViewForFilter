@@ -14,6 +14,12 @@
 		012FECAC1CF7DD7000459FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012FECAB1CF7DD7000459FF5 /* Assets.xcassets */; };
 		012FECAF1CF7DD7000459FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012FECAD1CF7DD7000459FF5 /* LaunchScreen.storyboard */; };
 		012FECBA1CF7DD7000459FF5 /* SlideViewForFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012FECB91CF7DD7000459FF5 /* SlideViewForFilterTests.m */; };
+		012FECCC1CF7DDE100459FF5 /* CustomSlideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 012FECC61CF7DDE100459FF5 /* CustomSlideBar.m */; };
+		012FECCD1CF7DDE100459FF5 /* FilterSlideDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012FECC81CF7DDE100459FF5 /* FilterSlideDataViewController.m */; };
+		01FE6DA81CFAEB9300511878 /* InfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FE6DA61CFAEB9300511878 /* InfoTableViewCell.m */; };
+		01FE6DA91CFAEB9300511878 /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FE6DA71CFAEB9300511878 /* InfoTableViewCell.xib */; };
+		01FE6DAD1CFAEBAF00511878 /* DetailInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FE6DAB1CFAEBAF00511878 /* DetailInfoTableViewCell.m */; };
+		01FE6DAE1CFAEBAF00511878 /* DetailInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FE6DAC1CFAEBAF00511878 /* DetailInfoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,16 @@
 		012FECB51CF7DD7000459FF5 /* SlideViewForFilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideViewForFilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012FECB91CF7DD7000459FF5 /* SlideViewForFilterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideViewForFilterTests.m; sourceTree = "<group>"; };
 		012FECBB1CF7DD7000459FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012FECC51CF7DDE100459FF5 /* CustomSlideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlideBar.h; sourceTree = "<group>"; };
+		012FECC61CF7DDE100459FF5 /* CustomSlideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlideBar.m; sourceTree = "<group>"; };
+		012FECC71CF7DDE100459FF5 /* FilterSlideDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterSlideDataViewController.h; sourceTree = "<group>"; };
+		012FECC81CF7DDE100459FF5 /* FilterSlideDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterSlideDataViewController.m; sourceTree = "<group>"; };
+		01FE6DA51CFAEB9300511878 /* InfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewCell.h; sourceTree = "<group>"; };
+		01FE6DA61CFAEB9300511878 /* InfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewCell.m; sourceTree = "<group>"; };
+		01FE6DA71CFAEB9300511878 /* InfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
+		01FE6DAA1CFAEBAF00511878 /* DetailInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailInfoTableViewCell.h; sourceTree = "<group>"; };
+		01FE6DAB1CFAEBAF00511878 /* DetailInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInfoTableViewCell.m; sourceTree = "<group>"; };
+		01FE6DAC1CFAEBAF00511878 /* DetailInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailInfoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 		012FEC9E1CF7DD7000459FF5 /* SlideViewForFilter */ = {
 			isa = PBXGroup;
 			children = (
+				012FECC41CF7DD8F00459FF5 /* view */,
 				012FECA21CF7DD7000459FF5 /* AppDelegate.h */,
 				012FECA31CF7DD7000459FF5 /* AppDelegate.m */,
 				012FECA51CF7DD7000459FF5 /* ViewController.h */,
@@ -109,6 +126,23 @@
 				012FECBB1CF7DD7000459FF5 /* Info.plist */,
 			);
 			path = SlideViewForFilterTests;
+			sourceTree = "<group>";
+		};
+		012FECC41CF7DD8F00459FF5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				012FECC51CF7DDE100459FF5 /* CustomSlideBar.h */,
+				012FECC61CF7DDE100459FF5 /* CustomSlideBar.m */,
+				01FE6DA51CFAEB9300511878 /* InfoTableViewCell.h */,
+				01FE6DA61CFAEB9300511878 /* InfoTableViewCell.m */,
+				01FE6DA71CFAEB9300511878 /* InfoTableViewCell.xib */,
+				01FE6DAA1CFAEBAF00511878 /* DetailInfoTableViewCell.h */,
+				01FE6DAB1CFAEBAF00511878 /* DetailInfoTableViewCell.m */,
+				01FE6DAC1CFAEBAF00511878 /* DetailInfoTableViewCell.xib */,
+				012FECC71CF7DDE100459FF5 /* FilterSlideDataViewController.h */,
+				012FECC81CF7DDE100459FF5 /* FilterSlideDataViewController.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FE6DA91CFAEB9300511878 /* InfoTableViewCell.xib in Resources */,
+				01FE6DAE1CFAEBAF00511878 /* DetailInfoTableViewCell.xib in Resources */,
 				012FECAF1CF7DD7000459FF5 /* LaunchScreen.storyboard in Resources */,
 				012FECAC1CF7DD7000459FF5 /* Assets.xcassets in Resources */,
 				012FECAA1CF7DD7000459FF5 /* Main.storyboard in Resources */,
@@ -211,9 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012FECCC1CF7DDE100459FF5 /* CustomSlideBar.m in Sources */,
 				012FECA71CF7DD7000459FF5 /* ViewController.m in Sources */,
 				012FECA41CF7DD7000459FF5 /* AppDelegate.m in Sources */,
+				012FECCD1CF7DDE100459FF5 /* FilterSlideDataViewController.m in Sources */,
 				012FECA11CF7DD7000459FF5 /* main.m in Sources */,
+				01FE6DAD1CFAEBAF00511878 /* DetailInfoTableViewCell.m in Sources */,
+				01FE6DA81CFAEB9300511878 /* InfoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +442,7 @@
 				012FECC01CF7DD7000459FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		012FECC11CF7DD7000459FF5 /* Build configuration list for PBXNativeTarget "SlideViewForFilterTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +451,7 @@
 				012FECC31CF7DD7000459FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
